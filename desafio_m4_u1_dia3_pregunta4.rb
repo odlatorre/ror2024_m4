@@ -1,7 +1,7 @@
 # Pregunta 4
 # Haciendo uso de .times o el ciclo for dibuja un triángulo con el carácter que
 # consideres más idóneo, pueden ser asteriscos (*) o numerales (#)
-if ARGV.empty?
+if ARGV[0].nil?
   n = 9
 else
   x = ARGV[0].to_i
